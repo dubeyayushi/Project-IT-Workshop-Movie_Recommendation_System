@@ -67,7 +67,7 @@ In the final step of the data preparation, in this data science project, we bina
 - The movie_data was split into multiple columns, with each column representing a genre category.
 - A binary value of 1 was assigned to a movie if it belonged to that particular genre, and 0 otherwise.
 
-### 5. BUILDING THE RECOMMEDATION SYSTEM
+### 5. BUILDING THE RECOMMENDATION SYSTEM
 
 - The ratings_data was transformed into a rating matrix, with users as rows and movies as columns.
 - The rating matrix was converted into a sparse matrix, which is a suitable format for collaborative filtering.
@@ -75,7 +75,7 @@ In the final step of the data preparation, in this data science project, we bina
 - Similarity calculations were performed between movies to identify similar items.
 - Recommendations were generated based on the similarity between movies and user preferences.
 
-## DATA ANALYSIS AND VISUALLIZATION
+## DATA ANALYSIS AND VISUALIZATION
 
 ### 1. Bar Plot for Total Views of Top Films
 
