@@ -164,4 +164,4 @@ The required libraries, such as 'recommenderlab' and 'ggplot2', were imported in
 
 - Ayushi Dubey (Enrolment no. 01601192022, AI ML'26, IGDTUW, Email ID: mailto:adayushi232@gmail.com, GitHub Profile: https://github.com/dubeyayushi)
 - Azmeen Khatoon (Enrolment no. 01701192022, AI ML'26, IGDTUW, Email ID: mailto:azmeenkhatoon2704@gmail.com, GitHub Profile: https://github.com/Hustler-01)
-- Bhumika Gupta (Enrolment no. 01801192022, AI ML'26, IGDTUW, Email ID: mailto:bhumikag0110@gmail.com, GitHub Profile: )
+- Bhumika Gupta (Enrolment no. 01801192022, AI ML'26, IGDTUW, Email ID: mailto:bhumikag0110@gmail.com, GitHub Profile:https://github.com/Bhumikagupta-110 )
