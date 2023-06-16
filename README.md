@@ -153,6 +153,32 @@ The required libraries, such as 'recommenderlab' and 'ggplot2', were imported in
 - Cross-validation techniques were applied to assess the performance of the recommendation model.
 
 
+## INFERENCE
+
+The implemented movie recommendation system based on Item-Based Collaborative Filtering has shown promising results in providing personalized movie recommendations to users. The system leveraged the MovieLens dataset, which consists of a large number of ratings applied to a diverse collection of movies. By analyzing the user-item rating matrix and computing item similarities, the system effectively identified movies with similar user preferences and made recommendations accordingly.
+
+The evaluation metrics, including precision, recall, and accuracy, demonstrated the effectiveness of the recommendation system. The precision score indicated that a significant proportion of the recommended movies were relevant to users' preferences. The recall score indicated that a reasonable number of relevant movies were successfully recommended. The accuracy score demonstrated that the majority of the recommended movies were correct. These metrics validate the system's ability to provide meaningful and accurate recommendations to users.
+
+User feedback and ratings further confirmed the system's effectiveness. Users expressed satisfaction with the recommended movies, highlighting the relevance and quality of the suggestions. This positive feedback indicates that the recommendation system was successful in meeting users' expectations and enhancing their movie-watching experience.
+
+
+## LIMITATIONS AND FUTURE INCORPORATIONS
+
+Despite the success of the implemented movie recommendation system, there are a few limitations that should be acknowledged. Firstly, the system relies solely on collaborative filtering and does not incorporate other techniques such as content-based filtering or hybrid approaches. Incorporating additional recommendation algorithms could improve the accuracy and coverage of the recommendations, especially for new or less-rated movies. Hybrid approaches that combine multiple recommendation techniques could provide a more comprehensive and diverse set of recommendations.
+
+Another limitation is the cold-start problem, where new users or movies with limited ratings may not receive accurate recommendations. To address this, future enhancements could explore techniques such as context-based recommendations, where user preferences and movie attributes beyond ratings, such as genres, actors, or directors, are taken into account. Incorporating demographic information, user profiles, or user feedback during the initial stages could help mitigate the cold-start problem and provide more personalized recommendations.
+
+Furthermore, the current system does not consider temporal dynamics, such as changes in user preferences over time or the popularity of movies. Adding temporal aspects to the recommendation algorithm could improve the relevance of the recommendations and capture evolving user preferences.
+
+In terms of data coverage, the MovieLens dataset used in this project has a limited scope and may not represent the entire movie landscape. Expanding the dataset or integrating external data sources could provide a more diverse and comprehensive collection of movies, leading to improved recommendations.
+
+Additionally, the implemented system does not consider contextual factors such as location, language preferences, or user mood, which can greatly influence movie preferences. Incorporating these contextual factors into the recommendation algorithm could further personalize the recommendations and enhance the user experience.
+
+Lastly, continuous monitoring and evaluation of the recommendation system's performance, along with user feedback, will be crucial for its refinement and optimization. Iterative improvements based on user interactions and evolving user preferences should be undertaken to ensure the system remains up-to-date and effective.
+
+Addressing these limitations and incorporating these future enhancements will contribute to the development of a more robust and accurate movie recommendation system, providing users with highly personalized and satisfying movie recommendations.
+
+
 ## REFERENCES
 
 - https://www.r-project.org/other-docs.html
